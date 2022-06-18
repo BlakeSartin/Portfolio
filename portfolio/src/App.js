@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Contact from './components/Contact';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
@@ -15,7 +15,7 @@ function App() {
         <Portfolio />
         <Works />
         <Testimonials />
-        <Contact />
+        <Contact /> 
         </div>
     </div>
   );
