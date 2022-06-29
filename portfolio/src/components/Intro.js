@@ -14,7 +14,7 @@ export default function Intro() {
         <h2>Hello, My name is </h2>
         <h1>Blake Sartin</h1>
         <h3>
-          Full-Stack Developer<span>Designer</span>
+          Full-Stack Developer<span></span>
         </h3>
       </div>
       <a href="#portfolio">

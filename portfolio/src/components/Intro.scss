@@ -1,3 +1,5 @@
+@import "../global.scss";
+
 .intro {
   background-color: white;
   display: flex;
@@ -13,7 +15,7 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: pink;
+      background-color: $mainColor;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -40,12 +42,47 @@
       h1 {
         font-size: 60px;
         margin: 5px 0;
+        color: $mainColor;
+        animation: fadeIn 5s ease;
+
+        @keyframes fadeIn {
+          0%{
+            opacity: 0;
+          }
+          100%{
+            opacity: 1;
+          }
       }
+    }
       h2 {
         font-size: 35px;
+        color: $mainColor;
+
+        animation: fadeIn 5s ease;
+
+        @keyframes fadeIn {
+          0%{
+            opacity: 0;
+          }
+          100%{
+            opacity: 1;
+          }
+      }
       }
       h3 {
         font-size: 30px;
+        color: $mainColor;
+
+        animation: fadeIn 5s ease;
+
+        @keyframes fadeIn {
+          0%{
+            opacity: 0;
+          }
+          100%{
+            opacity: 1;
+          }
+      }
 
         span{
           font-size: inherit;
@@ -65,7 +102,7 @@
       }
 
       @keyframes arrowBlink {
-        100%{
+        30%{
           opacity: 0;
         }
       }
