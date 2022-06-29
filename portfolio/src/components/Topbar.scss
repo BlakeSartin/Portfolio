@@ -1,6 +1,7 @@
 @import "../global.scss";
 
 .topbar {
+  overflow: hidden;
   height: 70px;
   width: 100%;
   background-color: white;
@@ -40,6 +41,7 @@
 .wrapper {
   padding: 10px 30px;
   display: flex;
+  
 
   align-items: center;
   justify-content: space-between;
