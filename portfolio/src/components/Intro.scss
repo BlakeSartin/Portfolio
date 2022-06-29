@@ -1,7 +1,7 @@
 @import "../global.scss";
 
 .intro {
-  background-color: white;
+  background-color: rgba(176, 250, 255, 0.815);
   display: flex;
 
   .left {
@@ -9,12 +9,14 @@
     overflow: hidden;
     display: flex;
     padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
 
 
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
+      width: 80%;
+      height: 80%;
       background-color: $mainColor;
       border-radius: 50%;
       display: flex;
