@@ -1,32 +1,30 @@
 @import "../global.scss";
 
-.portfolio{
+.portfolio {
   background-color: orange;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  h1{
+  h1 {
     font-size: 50px;
   }
 
-  ul{
+  ul {
     margin: 10px;
     padding: 0;
     list-style: none;
     display: flex;
-
-    
   }
 
-  .container{
+  .container {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
-    .item{
+    .item {
       width: 220px;
       height: 150px;
       border-radius: 20px;
@@ -34,24 +32,30 @@
       margin: 10px 20px;
       display: flex;
       align-items: center;
-      flex-direction: column;
-      padding-top: 15px;
+      justify-content: center;
+      position: relative;
       cursor: pointer;
-      
+      overflow: hidden;
 
-      &:hover{
-        background-color: $mainColor;
+      h3{
+        position: absolute;
+        font-size: 20px;
         color: white;
+
+      }
+      &:hover {
+        background-color: $mainColor;
         transition: all 1s ease;
-        img{
+        img {
           opacity: 0.2;
           z-index: 0;
         }
       }
-      
     }
   }
-  .icon{
-    font-size: 80px
+  img {
+    font-size: 80px;
+    object-fit: cover;
+    z-index: 1;
   }
 }
