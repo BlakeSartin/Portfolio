@@ -47,6 +47,18 @@
       align-items: center;
       flex-direction: column;
       padding-top: 15px;
+      cursor: pointer;
+      
+
+      &:hover{
+        background-color: $mainColor;
+        color: white;
+        transition: all 1s ease;
+        img{
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
       
     }
   }
