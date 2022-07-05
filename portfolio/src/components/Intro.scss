@@ -78,6 +78,9 @@
             opacity: 1;
           }
       }
+      @include mobile {
+        overflow: hidden;
+      }
     }
       h2 {
         font-size: 35px;
@@ -115,6 +118,9 @@
         span{
           font-size: inherit;
           color: aqua;
+        }
+        @include mobile {
+          overflow: hidden;
         }
       }
     }

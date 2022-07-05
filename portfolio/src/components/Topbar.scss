@@ -11,6 +11,8 @@
   z-index: 3;
   transition: all 1s ease;
 
+  
+
   &.active {
     background-color: $mainColor;
     color: white;
@@ -41,6 +43,7 @@
 .wrapper {
   padding: 10px 30px;
   display: flex;
+ 
   
 
   align-items: center;
@@ -62,6 +65,10 @@
     align-items: center;
     margin-left: 30px;
 
+    @include mobile {
+    display: none;
+    }
+
     .icon {
       font-size: 18px;
       margin-right: 5px;
@@ -70,6 +77,7 @@
     span {
       font-size: 15px;
       font-weight: 500;
+      
     }
   }
 }

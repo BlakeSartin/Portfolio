@@ -11,9 +11,10 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           <Phone className="icon"/>
           <span>778-384-2705</span>
           </div>
-          <div className="itemcontainer"></div>
+          <div className="itemcontainer">
           <Mail className="icon"/>
           <span>blake.sartin8@gmail.com</span>
+          </div>
           </div>
       <div className="right">
         <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
