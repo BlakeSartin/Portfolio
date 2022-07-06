@@ -16,6 +16,7 @@
   &.active {
     background-color: $mainColor;
     color: white;
+    
 
     .logo{
       color: white;
@@ -43,9 +44,6 @@
 .wrapper {
   padding: 10px 30px;
   display: flex;
- 
-  
-
   align-items: center;
   justify-content: space-between;
 
