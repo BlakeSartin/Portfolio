@@ -1,5 +1,6 @@
 import "./Portfolio.scss";
 import PortfolioList from "./Portfolio_List/PortfolioList";
+import { ArrowDownward } from "@material-ui/icons";
 import { useEffect, useState } from "react";
 import {
   featuredPortfolio,
@@ -83,6 +84,9 @@ export default function Portfolio() {
           </div>
         ))}
       </div>
+      <a href="#works">
+        <ArrowDownward className="icon" />
+      </a>
     </div>
   );
 }

@@ -81,5 +81,16 @@
     object-fit: cover;
     z-index: 1;
   }
+
+  .icon{
+    font-size: 60px;
+    animation: arrowBlink 2s infinite;
+  }
+
+  @keyframes arrowBlink {
+    30%{
+      opacity: 0;
+    }
+  }
   
 }
